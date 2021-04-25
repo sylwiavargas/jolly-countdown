@@ -1,6 +1,6 @@
 # Jolly Countdown
 
-![Are we there yet?](are-we-there-yet.png)
+![Are we there yet?](assets/are-we-there-yet.png)
 
 Are you impatient to get this new thing started?
 
