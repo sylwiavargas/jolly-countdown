@@ -1,10 +1,8 @@
 // Set the date we're counting down to
-let countdownDate = new Date("April 9, 2021 18:00:00").getTime()
+let countdownDate = new Date("May 13, 2023 18:00:00").getTime()
 
 let header = document.getElementsByTagName("h1")[0]
 
-
-// generate chill gradients - code by Kyle Shook's generator: https://codepen.io/kyleshook/pen/NWbarPK
 function generateHsl() {
     return (
       `hsl(${
@@ -39,13 +37,13 @@ function updateTime(){
     }
 
     if (timeLeft >= 0) {
-        header.innerText = "Signe, you're leaving in..."
+        header.innerText = "You still need to wait..."
     }
 
     if (timeLeft < 1000) {
       clearInterval(updateTime)
       header.remove()
-      countdownParagraph.innerText = "CONGRATULATIONS! 🥳"
+      countdownParagraph.innerText = "YAY! 🥳"
       countdownParagraph.style.marginTop = '40vh'
     }
     
